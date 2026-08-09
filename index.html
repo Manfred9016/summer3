@@ -410,12 +410,30 @@
 
         // --- DATA LAYER ---
         const athletesDB = [
-            { name: "Tai Tzu-ying", img: "Images/Tai_Tzu_ying.jpg", sport: "Badminton" },
-            { name: "Lee Yang & Wang Chi-ling", img: "Images/Lee_Wang.jpg", sport: "Badminton" },
-            { name: "LeBron James", img: "Images/LeBron_James.jpg", sport: "Basketball" },
-            { name: "Lionel Messi", img: "Images/Lionel_Messi.jpg", sport: "Football (Soccer)" },
-            { name: "Virat Kohli", img: "Images/Virat_Kohli.jpg", sport: "Cricket" },
-            { name: "Shohei Ohtani", img: "Images/Shohei_Ohtani.jpg", sport: "Baseball" }
+            { name: "Tai Tzu-ying", img: "Tai Tzu ying.jpg", sport: "Badminton" },
+            { name: "Lee Yang & Wang Chi-ling", img: "Lee Yang & Wang Chi-ling.jpg", sport: "Badminton" },
+            { name: "LeBron James", img: "LeBron James.jpg", sport: "Basketball" },
+            { name: "Lionel Messi", img: "Messi.jpg", sport: "Football (Soccer)" },
+            { name: "Virat Kohli", img: "Virat Kohli.jpg", sport: "Cricket" },
+            { name: "Shohei Ohtani", img: "Shohei Ohtani.jpg", sport: "Baseball" },
+            { name: "Tiger Woods", img: "Tiger Woods.jpg", sport: "Golf" },
+            { name: "Serena Williams", img: "Serena Williams.jpg", sport: "Tennis" },
+            { name: "Novak Djokovic", img: "Novak Djokovic.jpg", sport: "Tennis" },
+            { name: "Cristiano Ronaldo", img: "Cristiano Ronaldo.jpg", sport: "Football (Soccer)" },
+            { name: "Stephen Curry", img: "Stephen Curry.jpg", sport: "Basketball" },
+            { name: "Usain Bolt", img: "Usain Bolt.jpg", sport: "Track & Field" },
+            { name: "Michael Phelps", img: "Michael Phelps.jpg", sport: "Swimming" },
+            { name: "Simone Biles", img: "Simone Biles.jpg", sport: "Gymnastics" },
+            { name: "Lisa", img: "Lisa Blackpink.png", sport: "Muay Thai" }, 
+            { name: "Ayrton Senna", img: "Ayrton Senna.jpg", sport: "Formula 1" },
+            { name: "Valentino Rossi", img: "Valentino Rossi.jpg", sport: "MotoGP" },
+            { name: "Rafael Nadal", img: "Rafael Nadal.jpg", sport: "Tennis" },
+            { name: "Manny Pacquiao", img: "Manny Pacquiao.jpg", sport: "Boxing" },
+            { name: "Conor McGregor", img: "Conor McGregor.jpg", sport: "MMA" },
+            { name: "Efren Reyes", img: "Efren Reyes.jpg", sport: "Billiards" },
+            { name: "Tony Hawk", img: "Tony Hawk.jpg", sport: "Skateboarding" },
+            { name: "Kelly Slater", img: "Kelly Slater.jpg", sport: "Surfing" },
+            { name: "Shaun White", img: "Shaun White.jpg", sport: "Snowboarding" }
         ];
 
         const ALL_SPORTS = ["Badminton", "Basketball", "Football (Soccer)", "Cricket", "Baseball", "Pickleball", "Sepak Takraw", "Underwater Hockey"];
@@ -426,20 +444,25 @@
               id: "basic",
               title: "Basic Sports",
               description: "The Universal Language: From Global Giants to Taiwan's Favorites",
-              image: "Images/Basic.jpg",
+              image: "Sports1.jpg",
               reading: [
                 { country: "The Universal Language", text: "Sports are more than just games; they are a universal language that brings billions of people together. Whether it is a child kicking a ball in a small village or a professional athlete playing in a sold-out stadium, the spirit of competition is everywhere. In 2026, the sports world is bigger than ever, with new technology and emerging trends changing how we play and watch." },
                 { country: "The Global Giants", text: "When looking at the world stage, three sports stand far above the rest in terms of fans and participation. Football (Soccer): With over 3.5 billion fans, football remains the undisputed king of sports. The 2026 World Cup is expected to be the most-watched event in history, generating billions of dollars and involving over 200 countries. Cricket: Especially popular in India, Pakistan, and Australia, cricket has a massive fanbase of 2.5 billion people. The Indian Premier League (IPL) has turned the sport into a high-energy media spectacle. Basketball: Driven by the global reach of the NBA, basketball now has approximately 2.2 billion followers. It is one of the fastest-growing sports due to its fast pace and the star power of its players." },
                 { country: "Sports in Taiwan: A Growing Passion", text: "In Taiwan, the sports landscape is a mix of tradition and modern excitement. While the sports industry is projected to reach nearly NT$800 billion by 2025, several key sports dominate the local conversation: Baseball: Often called the 'national sport,' the CPBL (Chinese Professional Baseball League) draws huge crowds and is deeply rooted in local culture. Basketball: Professional leagues like the P. League+ and T1 have made basketball a primary source of sports entertainment. Badminton: Popularity has almost doubled in the last decade. Success by icons like Tai Tzu-ying and the gold-medal doubles team Lee Yang and Wang Chi-ling has inspired millions to pick up a racket. Beyond these, new trends are emerging in 2026. Pickleball (a mix of tennis and ping-pong) is exploding in popularity among all ages, while indoor climbing has become a favorite for young professionals in cities like Taipei." },
-                { country: "The Weird and Wonderful", text: "While most people play 'normal' sports, some cultures have invented competitions that are truly bizarre. These 'weird' sports show the creative and often humorous side of human nature: Cheese Rolling (England): Every year at Cooper's Hill, a judge rolls a large wheel of cheese down a very steep hill. Participants chase it at high speeds, often falling and tumbling down the grass. Sepak Takraw (Southeast Asia): Imagine volleyball, but you cannot use your hands. Players use their feet, knees, and chest to kick a rattan ball over a net. Wife Carrying (Finland): In this strange race, men carry a female teammate through a difficult obstacle course featuring hurdles and water pools. Underwater Hockey (Octopush): Played at the bottom of a swimming pool, teams use tiny sticks to push a heavy puck into a goal. Players must hold their breath while they fight for the puck, making it a test of both skill and lung power." }
+                { country: "The Weird and Wonderful", text: "While most people play 'normal' sports, some cultures have invented competitions that are truly bizarre. These 'weird' sports show the creative and often humorous side of human nature: Cheese Rolling (England): Every year at Cooper's Hill, a judge rolls a large wheel of cheese down a very steep hill. Participants chase it at high speeds, often falling and tumbling down the grass. Sepak Takraw (Southeast Asia): Imagine volleyball, but you cannot use your hands. Players use their feet, knees, and chest to kick a rattan ball over a net. Wife Carrying (Finland): In this strange race, men carry a female teammate through a difficult obstacle course featuring hurdles and water pools. Underwater Hockey (Octopush): Played at the bottom of a swimming pool, teams use tiny sticks to push a heavy puck into a goal. Players must hold their breath while they fight for the puck, making it a test of both skill and lung power." },
+                { country: "Conclusion", text:"Whether it is the 2026 World Cup, a local baseball game in Taiwan, or a bizarre competition like cheese rolling, sports connect us all. They are a universal language that transcends borders, cultures, and languages, bringing people together in the spirit of competition and fun." }
               ],
               vocabulary: [
                 { word: "universal", chinese: "普遍的", icon: "🌍" },
-                { word: "spectacle", chinese: "奇觀", icon: "🎆" },
-                { word: "bizarre", chinese: "奇異的", icon: "👽" },
-                { word: "obstacle", chinese: "障礙", icon: "🚧" },
-                { word: "participation", chinese: "參與", icon: "🙋‍♂️" },
-                { word: "icon", chinese: "偶像/指標", icon: "🌟" }
+                { word: "athlete", chinese: "運動員", icon: "🏀𐦂𖨆𐀪𖠋" },
+                { word: "cricket", chinese: "板球", icon: "🏏" },
+                { word: "landscape", chinese: "景觀", icon: "🏞️" },
+                { word: "dominate", chinese: "統治", icon: "🙋‍♂️" },
+                { word: "emerging", chinese: "新興的", icon: "🌟" },
+                { word: "Humorous", chinese: "幽默的", icon: "😂" },
+                { word: "hurdles", chinese: "跨欄", icon: "🚧🏃‍♂️" }
+            
+
               ],
               questions: [
                 { type: "mc", q: "1. Which sport has the largest global fan base in 2026?", options: ["Basketball", "Cricket", "Football (Soccer)", "Badminton"], answer: 2 },
@@ -458,7 +481,7 @@
               id: "intermediate",
               title: "Advanced Sports",
               description: "Sports Connect Us All: Trends & Bizarre Competitions",
-              image: "Images/Intermediate.jpg",
+              image: "sports2.jpg",
               reading: [
                 { country: "Sports Connect Us All", text: "Sports are more than just games; they are a universal language that brings billions of people together.[cite: 9] Whether it is a child kicking a ball in a small village or a professional athlete playing in a big, crowded stadium, the spirit of competition is everywhere.[cite: 9] In 2026, the sports world is bigger than ever.[cite: 9] New technology, social media, and modern trends are changing how we play and watch our favorite games.[cite: 9] At the same time, people around the world are looking for new ways to stay active, leading to a massive boom in both traditional athletics and highly unusual competitions.[cite: 9]" },
                 { country: "The Global Giants", text: "When we look at the world stage, three sports are much bigger than the rest because they have the most fans, the highest TV views, and the largest number of players.[cite: 9] Football (Soccer): With over 3.5 billion fans, football is the undisputed king of sports.[cite: 9] The 2026 World Cup is expected to be the most-watched event in history.[cite: 9] Cricket: This sport has a massive fanbase of 2.5 billion people.[cite: 9] A famous league called the Indian Premier League (IPL) has turned cricket into a high-energy media show with music, fireworks, and millions of viewers watching online.[cite: 9] Basketball: Thanks to the global reach of the NBA, basketball now has about 2.2 billion followers.[cite: 9] It is one of the fastest-growing sports because it is very fast-paced, requires simple equipment, and highlights the star power of famous superstar players.[cite: 9]" },
@@ -466,12 +489,14 @@
                 { country: "The Weird and Wonderful", text: "While most people play normal sports, some cultures have invented competitions that are truly bizarre and strange.[cite: 9] Cheese Rolling (England): Every year at Cooper's Hill, a judge rolls a large, nine-pound wheel of Double Gloucester cheese down a very steep hill.[cite: 9] Sepak Takraw (Southeast Asia): Imagine playing volleyball, but you are not allowed to use your hands or arms.[cite: 9] Wife Carrying (Finland): In this strange race, men must carry a female teammate through a difficult obstacle course.[cite: 9] Extreme Ironing (Global): Described as a \"danger sport,\" extreme ironing mixes the thrill of an outdoor activity with the satisfaction of a well-pressed shirt.[cite: 9] Toe Wrestling (England): If arm wrestling is too common for you, England offers toe wrestling.[cite: 9] Bog Snorkelling (Wales): In this muddy event, competitors wear snorkels, masks, and flippers, and swim through a 55-meter trench cut into a cold peat bog.[cite: 9]" }
               ],
               vocabulary: [
-                { word: "stadium", chinese: "體育場", icon: "🏟️" },
+                { word: "athlete", chinese: "運動員", icon: "🏀𐦂𖨆𐀪𖠋" },
                 { word: "undisputed", chinese: "無可爭議的", icon: "🥇" },
-                { word: "dominate", chinese: "主導/支配", icon: "👑" },
-                { word: "bizarre", chinese: "奇異的", icon: "👽" },
+                { word: "equipment", chinese: "裝備", icon: "🎽" },
+                { word: "unique", chinese: "獨特的", icon: "👽" },
                 { word: "acrobatic", chinese: "雜技的", icon: "🤸" },
-                { word: "obstacle", chinese: "障礙", icon: "🚧" }
+                { word: "flexibility", chinese: "靈活性", icon: "🤸" },
+                { word: "wrestling", chinese: "摔跤", icon: "🤼" },
+                { word: "trench", chinese: "壕溝", icon: "🕳️" }
               ],
               questions: [
                 { type: "mc", q: "1. Which sport has the largest global fan base in 2026?", options: ["Basketball", "Cricket", "Football (Soccer)", "Badminton"], answer: 2 },
